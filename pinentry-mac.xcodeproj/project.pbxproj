@@ -56,7 +56,6 @@
 		30FC956B129819310039CEF8 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/Pinentry.xib.strings; sourceTree = "<group>"; };
 		30FC956D129819390039CEF8 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = Resources/German.lproj/Pinentry.xib.strings; sourceTree = "<group>"; };
 		30FC957412981A040039CEF8 /* German */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = German; path = Resources/German.lproj/Pinentry.xib; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = prefix.pch; path = Source/prefix.pch; sourceTree = "<group>"; };
 		4354B56D0A29D531003EB704 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = COPYING; path = Resources/COPYING; sourceTree = "<group>"; };
 		438EE2FD0A1C6E560005741F /* assuan-buffer.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = "assuan-buffer.c"; path = "Source/pinentry-current/assuan/assuan-buffer.c"; sourceTree = "<group>"; };
 		438EE2FE0A1C6E560005741F /* assuan-defs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "assuan-defs.h"; path = "Source/pinentry-current/assuan/assuan-defs.h"; sourceTree = "<group>"; };
@@ -135,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				29B97316FDCFA39411CA2CEA /* main.m */,
-				32CA4F630368D1EE00C91783 /* prefix.pch */,
 				30CD3A7E129692A5005F9EA7 /* pinentry Sources */,
 			);
 			name = "Other Sources";
@@ -366,7 +364,6 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREFIX_HEADER = Source/prefix.pch;
 				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = /usr/local/MacGPG2/libexec;
 				PRODUCT_NAME = "pinentry-mac";
@@ -383,7 +380,6 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
-				GCC_PREFIX_HEADER = Source/prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					HAVE_CONFIG_H,
 					FALLBACK_CURSES,
@@ -399,8 +395,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEPLOY_RESOURCES_DIR = "$(SRCROOT)/Dependencies/DeployResources";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					HAVE_CONFIG_H,
 					FALLBACK_CURSES,
@@ -423,8 +417,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEPLOY_RESOURCES_DIR = "$(SRCROOT)/Dependencies/DeployResources";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					HAVE_CONFIG_H,
 					FALLBACK_CURSES,
