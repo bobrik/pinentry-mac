@@ -10,6 +10,7 @@
 		1FA4293B0E716E0C0007F59B /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4293A0E716E0C0007F59B /* Icon.icns */; };
 		30065823158488940033E1D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30065822158488940033E1D3 /* AppDelegate.m */; };
 		3006584E15848F9D0033E1D3 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3006584D15848F9D0033E1D3 /* Main.xib */; };
+		300A90FE18B8DA2800B87295 /* PassphraseLengthFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 300A90FD18B8DA2800B87295 /* PassphraseLengthFormatter.m */; };
 		3025AFF21361D9830038F6BA /* ShortcutHandlingFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 3025AFF11361D9830038F6BA /* ShortcutHandlingFields.m */; };
 		305E262A1296948200CF5467 /* GPGDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 305E26291296948200CF5467 /* GPGDefaults.m */; };
 		305E2C4D129734A100CF5467 /* KeychainSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 305E2C4C129734A100CF5467 /* KeychainSupport.m */; };
@@ -41,6 +42,8 @@
 		30065821158488940033E1D3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Source/AppDelegate.h; sourceTree = "<group>"; };
 		30065822158488940033E1D3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Source/AppDelegate.m; sourceTree = "<group>"; };
 		3006584D15848F9D0033E1D3 /* Main.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Main.xib; path = Resources/Main.xib; sourceTree = "<group>"; };
+		300A90FC18B8DA2800B87295 /* PassphraseLengthFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PassphraseLengthFormatter.h; path = Source/PassphraseLengthFormatter.h; sourceTree = "<group>"; };
+		300A90FD18B8DA2800B87295 /* PassphraseLengthFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PassphraseLengthFormatter.m; path = Source/PassphraseLengthFormatter.m; sourceTree = "<group>"; };
 		3025AFF01361D9830038F6BA /* ShortcutHandlingFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShortcutHandlingFields.h; path = Source/ShortcutHandlingFields.h; sourceTree = "<group>"; };
 		3025AFF11361D9830038F6BA /* ShortcutHandlingFields.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShortcutHandlingFields.m; path = Source/ShortcutHandlingFields.m; sourceTree = "<group>"; };
 		305E26281296948200CF5467 /* GPGDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPGDefaults.h; path = Source/GPGDefaults.h; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 				3025AFF11361D9830038F6BA /* ShortcutHandlingFields.m */,
 				30065821158488940033E1D3 /* AppDelegate.h */,
 				30065822158488940033E1D3 /* AppDelegate.m */,
+				300A90FC18B8DA2800B87295 /* PassphraseLengthFormatter.h */,
+				300A90FD18B8DA2800B87295 /* PassphraseLengthFormatter.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -326,6 +331,7 @@
 				45A0BB29150FC624005C15B2 /* pinentry-curses.c in Sources */,
 				30065823158488940033E1D3 /* AppDelegate.m in Sources */,
 				309769901B4561D900CEF4F6 /* argparse.c in Sources */,
+				300A90FE18B8DA2800B87295 /* PassphraseLengthFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
